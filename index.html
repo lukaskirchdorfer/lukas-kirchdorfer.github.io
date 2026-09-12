@@ -71,6 +71,7 @@
       const list = document.getElementById('selected-pub-list');
       try {
         const response = await fetch('./data/publications.json');
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         const selected = data.publications
           .filter(p => p.selected === true)

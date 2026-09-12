@@ -64,6 +64,7 @@
     async function loadAllPublications() {
       try {
         const response = await fetch('./data/publications.json');
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         const journals = data.publications.filter(p => p.type === 'journal');
         const conferences = data.publications.filter(p => p.type === 'conference');
