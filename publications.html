@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications – Lukas Kirchdorfer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-name">Lukas Kirchdorfer</a>
+      <a href="index.html" class="nav-link">Home</a>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <!-- Journals -->
+    <section id="journals" class="hidden">
+      <h2>Journals</h2>
+      <ul class="pub-list" id="journal-list"></ul>
+    </section>
+
+    <!-- Conferences -->
+    <section id="conferences" class="hidden">
+      <h2>Conferences</h2>
+      <ul class="pub-list" id="conference-list"></ul>
+    </section>
+
+    <!-- Workshops -->
+    <section id="workshops" class="hidden">
+      <h2>Workshops</h2>
+      <ul class="pub-list" id="workshop-list"></ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Lukas Kirchdorfer</div>
+  </footer>
+
+  <script>
+    function renderPubEntry(pub) {
+      const li = document.createElement('li');
+      li.className = 'pub-entry';
+      li.innerHTML = `
+        <div class="pub-title"><a href="${pub.url}" target="_blank" rel="noopener">${pub.title}</a></div>
+        <div class="pub-meta">${pub.authors} &nbsp;·&nbsp; ${pub.venue}, ${pub.year}</div>
+      `;
+      return li;
+    }
+
+    function populateSection(sectionId, listId, pubs) {
+      if (pubs.length === 0) return;
+      const section = document.getElementById(sectionId);
+      const list = document.getElementById(listId);
+      section.classList.remove('hidden');
+      pubs
+        .sort((a, b) => b.year - a.year)
+        .forEach(pub => list.appendChild(renderPubEntry(pub)));
+    }
+
+    async function loadAllPublications() {
+      try {
+        const response = await fetch('./data/publications.json');
+        const data = await response.json();
+        const journals = data.publications.filter(p => p.type === 'journal');
+        const conferences = data.publications.filter(p => p.type === 'conference');
+        const workshops = data.publications.filter(p => p.type === 'workshop');
+        populateSection('journals', 'journal-list', journals);
+        populateSection('conferences', 'conference-list', conferences);
+        populateSection('workshops', 'workshop-list', workshops);
+      } catch (e) {
+        document.querySelector('main').innerHTML += '<p>Publications unavailable.</p>';
+      }
+    }
+    loadAllPublications();
+  </script>
+</body>
+</html>
