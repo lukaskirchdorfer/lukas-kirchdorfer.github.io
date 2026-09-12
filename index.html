@@ -82,8 +82,7 @@
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         const selected = data.publications
-          .filter(p => p.selected === true)
-          .sort((a, b) => b.year - a.year);
+          .filter(p => p.selected === true);
         selected.forEach(pub => {
           const li = document.createElement('li');
           li.className = 'pub-entry';
