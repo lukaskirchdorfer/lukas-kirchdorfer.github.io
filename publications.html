@@ -45,8 +45,9 @@
       const li = document.createElement('li');
       li.className = 'pub-entry';
       li.innerHTML = `
+        <div class="pub-venue">${pub.venue}, ${pub.year}</div>
         <div class="pub-title"><a href="${pub.url}" target="_blank" rel="noopener">${pub.title}</a></div>
-        <div class="pub-meta">${pub.authors} &nbsp;·&nbsp; ${pub.venue}, ${pub.year}</div>
+        <div class="pub-meta">${pub.authors}</div>
         ${pub.award ? `<div class="pub-award">🏆 ${pub.award}</div>` : ''}
       `;
       return li;
