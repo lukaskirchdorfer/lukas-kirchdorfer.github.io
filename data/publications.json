@@ -1,12 +1,31 @@
 {
   "publications": [
     {
+      "title": "AgentSimulator: An Agent-Based Approach for Data-Driven Business Process Simulation",
+      "authors": "L. Kirchdorfer, R. Blümel, T. Kampik, H. van der Aa, H. Stuckenschmidt",
+      "venue": "International Conference on Process Mining (ICPM)",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://doi.org/10.1109/ICPM63005.2024.10680660",
+      "selected": true,
+      "award": "Best Paper Award"
+    },
+    {
       "title": "Investigating Uncertainty Weighting for Multi-Task Learning: Insights and Analytical Alternative",
       "authors": "L. Kirchdorfer, T. Sesterhenn, C. Bartelt, H. Stuckenschmidt, L. Schott, J. M. Köhler",
       "venue": "International Journal of Computer Vision",
       "year": 2026,
       "type": "journal",
       "url": "https://doi.org/10.1007/s11263-025-02625-x",
+      "selected": true
+    },
+    {
+      "title": "Enabling Mixed Effects Neural Networks for Diverse, Clustered Data Using Monte Carlo Methods",
+      "authors": "A. Tschalzev, P. Nitschke, L. Kirchdorfer, S. Lüdtke, C. Bartelt, H. Stuckenschmidt",
+      "venue": "International Joint Conference on Artificial Intelligence (IJCAI)",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://doi.org/10.24963/ijcai.2024/555",
       "selected": true
     },
     {
@@ -106,7 +125,7 @@
       "year": 2025,
       "type": "conference",
       "url": "https://doi.org/10.1007/978-3-032-02867-9_20",
-      "selected": true
+      "selected": false
     },
     {
       "title": "On the Simplification of Neural Network Architectures for Predictive Process Monitoring",
@@ -133,27 +152,11 @@
       "year": 2024,
       "type": "conference",
       "url": "https://doi.org/10.1007/978-3-031-85181-0_22",
-      "selected": false
-    },
-    {
-      "title": "AgentSimulator: An Agent-Based Approach for Data-Driven Business Process Simulation",
-      "authors": "L. Kirchdorfer, R. Blümel, T. Kampik, H. van der Aa, H. Stuckenschmidt",
-      "venue": "International Conference on Process Mining (ICPM)",
-      "year": 2024,
-      "type": "conference",
-      "url": "https://doi.org/10.1109/ICPM63005.2024.10680660",
-      "selected": true,
-      "award": "Best Paper Award"
-    },
-    {
-      "title": "Enabling Mixed Effects Neural Networks for Diverse, Clustered Data Using Monte Carlo Methods",
-      "authors": "A. Tschalzev, P. Nitschke, L. Kirchdorfer, S. Lüdtke, C. Bartelt, H. Stuckenschmidt",
-      "venue": "International Joint Conference on Artificial Intelligence (IJCAI)",
-      "year": 2024,
-      "type": "conference",
-      "url": "https://doi.org/10.24963/ijcai.2024/555",
-      "selected": true
+      "selected": false,
+      "award": "Young Researcher Award"
     }
+
+    
   ]
 }
 
