@@ -64,7 +64,7 @@ h1 {
 
 .bio {
   margin-bottom: 1.25rem;
-  color: #222;
+  color: #111;
 }
 
 .social-links {
@@ -158,7 +158,7 @@ h2 {
 
 .exp-desc {
   font-size: 0.9rem;
-  color: #444;
+  color: #555;
   margin-top: 0.15rem;
 }
 
@@ -173,5 +173,5 @@ footer {
   padding: 2rem 0;
   border-top: 1px solid #e8e8e8;
   font-size: 0.85rem;
-  color: #aaa;
+  color: #555;
 }
