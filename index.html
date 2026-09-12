@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lukas Kirchdorfer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-name">Lukas Kirchdorfer</a>
+      <a href="publications.html" class="nav-link">Publications</a>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <!-- Intro -->
+    <section id="intro">
+      <h1>Lukas Kirchdorfer</h1>
+      <p class="subtitle">Senior AI Scientist at SAP &nbsp;·&nbsp; PhD in Artificial Intelligence</p>
+      <p class="bio">
+        I work on machine learning research at SAP, focusing on [your research focus here].
+        My work spans [research area 1] and [research area 2].
+        Previously, I completed my PhD at [university].
+      </p>
+      <ul class="social-links">
+        <li><a href="https://scholar.google.de/citations?hl=de&user=4NuUVSkAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a href="https://github.com/lukaskirchdorfer" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/lukas-kirchdorfer/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <!-- Selected Publications -->
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <ul class="pub-list" id="selected-pub-list">
+        <!-- Rendered by JavaScript -->
+      </ul>
+      <a href="publications.html" class="all-pubs-link">All publications →</a>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="exp-list">
+        <li class="exp-entry">
+          <div class="exp-role">Senior AI Scientist &nbsp;·&nbsp; SAP</div>
+          <div class="exp-date">2022 – Present</div>
+        </li>
+        <li class="exp-entry">
+          <div class="exp-role">PhD Researcher &nbsp;·&nbsp; [University Name]</div>
+          <div class="exp-date">2018 – 2022</div>
+        </li>
+        <li class="exp-entry">
+          <div class="exp-role">[Previous Role] &nbsp;·&nbsp; [Company]</div>
+          <div class="exp-date">[Start] – [End]</div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Lukas Kirchdorfer</div>
+  </footer>
+
+  <script>
+    async function loadSelectedPublications() {
+      const list = document.getElementById('selected-pub-list');
+      try {
+        const response = await fetch('./data/publications.json');
+        const data = await response.json();
+        const selected = data.publications
+          .filter(p => p.selected === true)
+          .sort((a, b) => b.year - a.year);
+        selected.forEach(pub => {
+          const li = document.createElement('li');
+          li.className = 'pub-entry';
+          li.innerHTML = `
+            <div class="pub-title"><a href="${pub.url}" target="_blank" rel="noopener">${pub.title}</a></div>
+            <div class="pub-meta">${pub.authors} &nbsp;·&nbsp; ${pub.venue}, ${pub.year}</div>
+          `;
+          list.appendChild(li);
+        });
+      } catch (e) {
+        list.innerHTML = '<li>Publications unavailable.</li>';
+      }
+    }
+    loadSelectedPublications();
+  </script>
+</body>
+</html>
