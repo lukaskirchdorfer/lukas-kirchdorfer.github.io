@@ -162,6 +162,14 @@ h2 {
   margin-top: 0.15rem;
 }
 
+/* Award badge */
+.pub-award {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: #b8860b;
+  margin-top: 0.2rem;
+}
+
 /* Utility */
 .hidden {
   display: none;

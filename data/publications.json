@@ -1,40 +1,159 @@
 {
   "publications": [
     {
-      "title": "Placeholder: Replace with your paper title",
-      "authors": "L. Kirchdorfer, A. Coauthor",
-      "venue": "NeurIPS",
+      "title": "Investigating Uncertainty Weighting for Multi-Task Learning: Insights and Analytical Alternative",
+      "authors": "L. Kirchdorfer, T. Sesterhenn, C. Bartelt, H. Stuckenschmidt, L. Schott, J. M. Köhler",
+      "venue": "International Journal of Computer Vision",
+      "year": 2026,
+      "type": "journal",
+      "url": "https://doi.org/10.1007/s11263-025-02625-x",
+      "selected": true
+    },
+    {
+      "title": "Arrival Times in Dynamic Environments: Modeling, Evaluation, and Benchmarking for Business Process Simulation",
+      "authors": "L. Kirchdorfer, K. Özdemir, H. van der Aa, H. Stuckenschmidt",
+      "venue": "Process Science",
+      "year": 2026,
+      "type": "journal",
+      "url": "https://doi.org/10.1007/s44311-026-00041-z",
+      "selected": true
+    },
+    {
+      "title": "From Global Policies to Local Strategies: Multi-Objective Optimization of Resource-Specific Handover Policies",
+      "authors": "L. Kirchdorfer, A. Doumeni, H. van der Aa, H. A. López",
+      "venue": "Business Process Management (BPM)",
+      "year": 2026,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2606.01857",
+      "selected": true
+    },
+    {
+      "title": "Organizational Memory for Agentic Business Process Execution",
+      "authors": "L. Kirchdorfer, A. Rebmann, C. Warmuth, T. Kampik, T. Heilker, G. Berg",
+      "venue": "BPM Process Technology Forum",
+      "year": 2026,
+      "type": "workshop",
+      "url": "https://arxiv.org/abs/2607.03228",
+      "selected": false
+    },
+    {
+      "title": "Temporal Knowledge Graph Forecasting under Distribution Shifts: A Synthetic Evaluation",
+      "authors": "K. Özdemir, J. Gastinger, L. Kirchdorfer, H. Stuckenschmidt",
+      "venue": "MLG Workshop @ ECML",
+      "year": 2026,
+      "type": "workshop",
+      "url": "https://arxiv.org/abs/2607.09232",
+      "selected": false
+    },
+    {
+      "title": "Revisiting Predictive Process Monitoring in the Age of Foundation Models: A Comparative Study of Sequence, Tabular, and LLM Approaches",
+      "authors": "L. Fertig, L. Kirchdorfer, T. Sesterhenn",
+      "venue": "AI4PM Workshop @ ECML",
+      "year": 2026,
+      "type": "workshop",
+      "url": "https://arxiv.org/abs/2607.27797",
+      "selected": false
+    },
+    {
+      "title": "Mind the Long Tail: Understanding the Difficulty of Delay Detection in Business Processes",
+      "authors": "K. Amiri Elyasi, L. Kirchdorfer, H. Stuckenschmidt",
+      "venue": "Business Process Management (BPM)",
+      "year": 2026,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2608.14367",
+      "selected": true
+    },
+    {
+      "title": "On the Integration of Business Process Simulation and Predictive Process Monitoring",
+      "authors": "R. Blümel, K. Amiri Elyasi, L. Kirchdorfer, P. Badakhshan, H. Stuckenschmidt, H. van der Aa",
+      "venue": "International Conference on Enterprise Design, Operations, and Computing (EDOC)",
+      "year": 2026,
+      "type": "conference",
+      "url": "https://hanvanderaa.com/wp-content/uploads/2026/05/EDOC2026-On-the-Integration-of-Business-Process-Simulation-and-Predictive-Process-Monitoring.pdf",
+      "selected": false
+    },
+    {
+      "title": "Discovering Multi-Agent Systems for Resource-Centric Business Process Simulation",
+      "authors": "L. Kirchdorfer, R. Blümel, T. Kampik, H. van der Aa, H. Stuckenschmidt",
+      "venue": "Process Science",
+      "year": 2025,
+      "type": "journal",
+      "url": "https://doi.org/10.1007/s44311-025-00009-5",
+      "selected": false
+    },
+    {
+      "title": "Rethinking Business Process Simulation: A Utility-Based Evaluation Framework",
+      "authors": "K. Özdemir, L. Kirchdorfer, K. Amiri Elyasi, H. van der Aa, H. Stuckenschmidt",
+      "venue": "BPM Forum",
+      "year": 2025,
+      "type": "conference",
+      "url": "https://doi.org/10.1007/978-3-032-02929-4_8",
+      "selected": false
+    },
+    {
+      "title": "A Business Process Simulation Tool Bridging Control-Flow and Resource-Centric Paradigms",
+      "authors": "J. Edh, T. Falk, F. Kanon, E. Simonsson, H. Sjödin, J. Wincent, E. Barar, R. Blümel, L. Kirchdorfer",
+      "venue": "BPM Demos",
+      "year": 2025,
+      "type": "workshop",
+      "url": "https://ceur-ws.org/Vol-4032/paper-31.pdf",
+      "selected": false
+    },
+    {
+      "title": "A Divide-and-Conquer Approach for Modeling Arrival Times in Business Process Simulation",
+      "authors": "L. Kirchdorfer, K. Özdemir, S. Kusenic, H. van der Aa, H. Stuckenschmidt",
+      "venue": "Business Process Management (BPM)",
+      "year": 2025,
+      "type": "conference",
+      "url": "https://doi.org/10.1007/978-3-032-02867-9_20",
+      "selected": true
+    },
+    {
+      "title": "On the Simplification of Neural Network Architectures for Predictive Process Monitoring",
+      "authors": "A. Ansari, L. Kirchdorfer, R. Hadian",
+      "venue": "ML4PM Workshop @ ICPM",
+      "year": 2025,
+      "type": "workshop",
+      "url": "https://arxiv.org/abs/2509.17145",
+      "selected": false
+    },
+    {
+      "title": "Examining Common Paradigms in Multi-Task Learning",
+      "authors": "C. Elich, L. Kirchdorfer, J. M. Köhler, L. Schott",
+      "venue": "German Conference on Pattern Recognition (GCPR)",
       "year": 2024,
       "type": "conference",
-      "url": "https://arxiv.org/abs/0000.00001",
-      "selected": true
+      "url": "https://doi.org/10.1007/978-3-031-85181-0_9",
+      "selected": false
     },
     {
-      "title": "Placeholder: Replace with your paper title",
-      "authors": "L. Kirchdorfer, B. Coauthor, C. Coauthor",
-      "venue": "ICML",
-      "year": 2023,
+      "title": "Analytical Uncertainty-Based Loss Weighting in Multi-Task Learning",
+      "authors": "L. Kirchdorfer, C. Elich, S. Kutsche, H. Stuckenschmidt, L. Schott, J. M. Köhler",
+      "venue": "German Conference on Pattern Recognition (GCPR)",
+      "year": 2024,
       "type": "conference",
-      "url": "https://arxiv.org/abs/0000.00002",
+      "url": "https://doi.org/10.1007/978-3-031-85181-0_22",
+      "selected": false
+    },
+    {
+      "title": "AgentSimulator: An Agent-Based Approach for Data-Driven Business Process Simulation",
+      "authors": "L. Kirchdorfer, R. Blümel, T. Kampik, H. van der Aa, H. Stuckenschmidt",
+      "venue": "International Conference on Process Mining (ICPM)",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://doi.org/10.1109/ICPM63005.2024.10680660",
+      "selected": true,
+      "award": "Best Paper Award"
+    },
+    {
+      "title": "Enabling Mixed Effects Neural Networks for Diverse, Clustered Data Using Monte Carlo Methods",
+      "authors": "A. Tschalzev, P. Nitschke, L. Kirchdorfer, S. Lüdtke, C. Bartelt, H. Stuckenschmidt",
+      "venue": "International Joint Conference on Artificial Intelligence (IJCAI)",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://doi.org/10.24963/ijcai.2024/555",
       "selected": true
-    },
-    {
-      "title": "Placeholder: Replace with your paper title",
-      "authors": "L. Kirchdorfer, D. Coauthor",
-      "venue": "Journal of Machine Learning Research",
-      "year": 2022,
-      "type": "journal",
-      "url": "https://arxiv.org/abs/0000.00003",
-      "selected": false
-    },
-    {
-      "title": "Placeholder: Replace with your paper title",
-      "authors": "L. Kirchdorfer, E. Coauthor",
-      "venue": "NeurIPS Workshop on XYZ",
-      "year": 2023,
-      "type": "workshop",
-      "url": "https://arxiv.org/abs/0000.00004",
-      "selected": false
     }
   ]
 }
+
