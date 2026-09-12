@@ -13,7 +13,7 @@
     {
       "title": "Investigating Uncertainty Weighting for Multi-Task Learning: Insights and Analytical Alternative",
       "authors": "L. Kirchdorfer, T. Sesterhenn, C. Bartelt, H. Stuckenschmidt, L. Schott, J. M. Köhler",
-      "venue": "International Journal of Computer Vision",
+      "venue": "International Journal of Computer Vision (IJCV)",
       "year": 2026,
       "type": "journal",
       "url": "https://doi.org/10.1007/s11263-025-02625-x",
@@ -154,9 +154,47 @@
       "url": "https://doi.org/10.1007/978-3-031-85181-0_22",
       "selected": false,
       "award": "Young Researcher Award"
-    }
+    },
 
-    
+    {
+      "title": "Glitches in the Matrix: Threats to the Validity of Data-driven Business Process Simulation",
+      "authors": "R. Blümel, L. Kirchdorfer, J. Rehse, T. Kampik, H. van der Aa",
+      "venue": "Process Science",
+      "year": 2026,
+      "type": "journal",
+      "url": "https://link.springer.com/article/10.1007/s44311-026-00056-6",
+      "selected": false
+    },
+
+    {
+      "title": "A Formal Framework for Strategic Reasoning in Agentic Business Process Management",
+      "authors": "G. De Giacomo, T. Kampik, L. Kirchdorfer, M. Montali, C. Weinhuber",
+      "venue": "OVERLAY Workshop @ FLOC",
+      "year": 2026,
+      "type": "workshop",
+      "url": "https://www.diag.uniroma1.it/degiacom/papers/2026/Overlay26dkkmw.pdf",
+      "selected": false
+    },
+
+    {
+      "title": "On the Potential of Multi-Task Learning in Predictive Process Monitoring",
+      "authors": "L. Kirchdorfer, K. Amiri Elyasi, H. Stuckenschmidt",
+      "venue": "Hawaii International Conference on System Sciences (HICSS)",
+      "year": 2027,
+      "type": "conference",
+      "url": "",
+      "selected": false
+    },
+
+    {
+      "title": "Inverse Reinforcement Learning for Resource Preference Modeling in Business Processes",
+      "authors": "L. Kirchdorfer, T. Kampik, H. van der Aa, H. Stuckenschmidt",
+      "venue": "Hawaii International Conference on System Sciences (HICSS)",
+      "year": 2027,
+      "type": "conference",
+      "url": "",
+      "selected": false
+    }
   ]
 }
 
